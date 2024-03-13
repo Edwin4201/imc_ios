@@ -18,6 +18,7 @@ class ResultsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //
         bmiLabel.text = bmiValue
         adviceLabel.text = advice
         view.backgroundColor = color
